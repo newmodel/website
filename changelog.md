@@ -6,3 +6,7 @@ _Vinícius Rocha_
 - criação do repositório do github 
 - primeiro envio para repositório
 - mudanças na logo da equipe 
+
+_Brenda Nicolli_
+-Atualização e correção do changelog
+- Clone do repositório
