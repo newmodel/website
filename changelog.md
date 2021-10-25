@@ -8,5 +8,6 @@ _Vinícius Rocha_
 - mudanças na logo da equipe 
 
 _Brenda Nicolli_
--Atualização e correção do changelog
+- Atualização e correção do changelog
 - Clone do repositório
+- correção do guia de mudanças
