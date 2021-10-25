@@ -13,3 +13,4 @@ _Brenda Nicolli_
 _Brenda Nicolli_
 
 - Desenvolvimento da página Home em HTML
+- Desenvolvimento da página Quem somos
