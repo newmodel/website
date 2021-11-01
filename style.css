@@ -1,17 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
-    cursor: pointer;
     box-sizing: border-box;
     outline: none;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
 
-#wrapper topo{
-    width: 100px;
+.wrapper{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto; 
+}
+
+#topo{
     justify-content: space-around;
     display: flex;
     align-items: center;
+    margin-top: 20px;
+}
+
+#topo img{
+    width: 200px;
+    height: 0%;
+    display: flex;
+    align-items: center;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 #menu ul{
@@ -30,14 +50,13 @@ align-items: center;
 #menu ul li a{
     text-decoration: none;
     color:red;
-    transition: color 2s;
+    transition: color 200ms;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 #menu ul li a:hover{
-    color: rgb(123, 4, 202);
+    background: rgb(123, 4, 202);
+    color: white;
 }
 
-#wapper img{
-    width: 500px;
-    height: 0%;
-}
