@@ -1,13 +1,13 @@
-# guia de mudanças
+# Registro de Mudanças 
 
-## 25 de Outubro
+## Semana 1 - 29 de Novembro
+ - Estrutura e Layout do Projeto
+ - Brainstorm da equipe 
+## Semana 2 - 05 de Novembro
 
-_Vinícius Rocha_
-- criação do repositório do github 
-- primeiro envio para repositório
-- mudanças na logo da equipe 
-
-_Brenda Nicolli_
-- Atualização e correção do changelog
-- Clone do repositório
-- correção do guia de mudanças
+* Criação da página home (Vinícius)
+  - estrutura em html;
+  - Estilização do botão no css;
+  - linkagem gem para as outras páginas (as outras páginas ainda serão feitas).
+  - Textos (Brenda e Kauany)
+  - Imagens (Julian)
