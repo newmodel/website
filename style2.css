@@ -13,12 +13,6 @@
     padding: 0 2%;
 }
 
-html,body{
-    height: 100%;
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
 header{
     height: 200px;
     padding: 20px 0;
