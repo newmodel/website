@@ -111,6 +111,7 @@ section.sobre{
     align-items: center;
     justify-content: center;
     background-color: rgb(223, 68, 125);
+    margin-bottom: 1px;
 }
 
 #sobre h3{
@@ -138,6 +139,8 @@ section.sobre{
     margin-top: 10px;
   }
   
+
+  
   .card {
     width: 352px;
     height: 136px;
@@ -155,6 +158,7 @@ section.sobre{
 
   .card:hover{
       background-color: rgb(179, 217, 248);
+    
   }
 
   #cards2{
@@ -164,3 +168,23 @@ section.sobre{
     margin-top: 10px;
   }
 
+  .Texto{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(252, 205, 205);
+      
+  }
+
+  #imagem{
+      width: 500px;
+      margin-left: 40px;
+      padding: 30px;
+  }
+
+  #contudo h2{
+      font-size: 13pt;
+      text-align: justify;
+      margin-left: 100px;
+      margin-right: 120px;
+  }
