@@ -103,88 +103,137 @@ section.sobre{
 .menu a:hover{
     background: crimson;
     color: white;
+}
+/* banner */
 
+.w3-content{position: relative; margin-top: 40px;}
+.w3-btn,.w3-button{border:none;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-btn,.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none} 
+.w3-disabled,.w3-btn:disabled,.w3-button:disabled{cursor:not-allowed;opacity:0.3}.w3-disabled *,:disabled *{pointer-events:none}
+.w3-bar-block .w3-dropdown-hover .w3-button,.w3-bar-block .w3-dropdown-click .w3-button{width:100%;text-align:left;padding:8px 16px}
+.w3-button:hover{color:#000!important;background-color:#ccc!important}
+
+.w3-content button {
+position: absolute;
+top: 32%;
 }
 
-#sobre{
-    display: flex;
+.w3-display-right {right:0}
+.w3-display-left {left:0}
+
+/* texto pequeno */
+
+.col{
     align-items: center;
+    display: flex;
     justify-content: center;
-    background-color: rgb(223, 68, 125);
-    margin-bottom: 1px;
+    margin-top: 35px;
 }
 
-#sobre h3{
-    font-size: 17px;
-    color: black;
-    padding: 65px;
-    font-weight: bold;
-    max-width: 990px;
+.destaques{
     text-align: center;
 }
 
-#ui {
-    color: rgb(0, 0, 0);
-    margin-top: 25px;
-    margin-bottom: -15px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+.destaque h1{
+    margin-bottom: 5px;
+    text-align: center;
 }
 
-#cards {
+#bot{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#bot button{
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+#empresa{
+    margin-top: 70px;
+}
+
+#oi{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#ei{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#ola{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Texto{
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
-  }
-  
+    background-color: rgb(124, 224, 255);
+}
 
-  
-  .card {
-    width: 352px;
-    height: 136px;
-    background-color: rgb(45, 77, 154);
-    border-radius: 10px;
-    padding: 20px;
-    margin-right: 20px;
-  }
-  .card-title {
-    display: flex;
+.Texto img{
+    margin-left: 60px;
+}
+
+.contudo h2{
+    font-size: 14pt;
+    margin-left: 50px;
+    margin-right: 70px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#Texto{
+    margin-top: 20px;
     align-items: center;
-    justify-content: space-between;
-    margin-bottom: 30px;
-  }
-
-  .card:hover{
-      background-color: rgb(179, 217, 248);
-    
-  }
-
-  #cards2{
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top: 10px;
-  }
+    background-color: rgb(124, 224, 255);
+}
 
-  .Texto{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: rgb(252, 205, 205);
-      
-  }
+#Texto img{
+    margin-right: 60px;
+}
 
-  #imagem{
-      width: 500px;
-      margin-left: 40px;
-      padding: 30px;
-  }
+#contudo h2{
+    font-size: 14pt;
+    margin-left: 50px;
+    margin-right: 70px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
 
-  #contudo h2{
-      font-size: 13pt;
-      text-align: justify;
-      margin-left: 100px;
-      margin-right: 120px;
-  }
+#Texto2{
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(124, 224, 255);
+}
+
+#Texto2 img{
+    margin-left: 60px;
+}
+
+#contudo2 h2{
+    font-size: 14pt;
+    margin-left: 50px;
+    margin-right: 70px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}

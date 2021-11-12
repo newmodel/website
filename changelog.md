@@ -19,7 +19,8 @@
   - estilização no css;
   - imagens (Kauany e Julian)
 
-## Semana 3 - 11 de novembro de 2021
+## Semana 3 - 12 de novembro de 2021
   - adição da imagem e texto;
   - refizemos a estilização da página Quem somos como teste.
+  - Finalização da página quem somos
 
