@@ -24,3 +24,6 @@
   - refizemos a estilização da página Quem somos como teste.
   - Finalização da página quem somos
 
+
+## 16 de novembro
+  - Alteraçãonos bot~es saiba mais e produtos
