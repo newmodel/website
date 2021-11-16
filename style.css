@@ -32,6 +32,7 @@ header{
     padding-top: 30px;
     width: 50%;
     text-align: right;
+    margin-top: 35px;
 }
 
 .menu a{
@@ -88,7 +89,7 @@ section.sobre{
     position: absolute;
     left: 45%;
     bottom: 20%;
-    transform: translateX(-50%);
+    transform: translateX(-65%);
     display: flex;
 }
 
