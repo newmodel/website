@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background: #f6f9ff;
 }
 
 .center{
@@ -91,6 +97,7 @@ top: 32%;
 #bot button{
     padding: 10px 20px 10px 20px;
     border-radius: 20px;
+    border: 0;
     background-color: crimson;
     color: white;
     font-weight: bold;
@@ -101,6 +108,7 @@ top: 32%;
 
 #empresa{
     margin-top: 70px;
+    padding: 30px;
 }
 
 #oi{
@@ -125,7 +133,8 @@ top: 32%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(124, 224, 255);
+    background-color: rgb(192, 239, 253);
+    border-radius: 15px;
 }
 
 .Texto img{
@@ -138,14 +147,16 @@ top: 32%;
     margin-right: 70px;
     text-align: center;
     color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
 }
 
 #Texto{
-    margin-top: 20px;
+    margin-top: 40px;
     align-items: center;
     display: flex;
     justify-content: center;
-    background-color: rgb(124, 224, 255);
+    background-color: rgba(0, 140, 255, 0.39);
+    border-radius: 15px;
 }
 
 #Texto img{
@@ -158,14 +169,17 @@ top: 32%;
     margin-right: 70px;
     text-align: center;
     color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
 }
 
 #Texto2{
-    margin-top: 20px;
+    margin-top: 40px;
     align-items: center;
     display: flex;
     justify-content: center;
-    background-color: rgb(124, 224, 255);
+    background-color: rgb(255, 198, 198);
+    margin-bottom: 40px;
+    border-radius: 15px;
 }
 
 #Texto2 img{
@@ -178,4 +192,6 @@ top: 32%;
     margin-right: 70px;
     text-align: center;
     color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
 }
+
