@@ -69,6 +69,11 @@ header{
     border-radius: 10px;
     max-height: 286px;
     margin-left: 60px;
+    transition: 1s;
+}
+
+.card:hover{
+    transform: scale3d(1.08, 1.08, 1.08);
 }
 
 .card:first-child{
@@ -121,7 +126,7 @@ header{
     margin: 0 auto;
 }
 
-.flex > div{
+.carde{
     flex: 1 1 200px;
     margin: 10px;
 }
@@ -129,5 +134,10 @@ header{
 .flex img{
     max-width: 100%;
     display: block;
+    cursor: pointer;
 }
+
+
+
+
 
