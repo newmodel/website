@@ -24,5 +24,9 @@
   - Finalização da página quem somos (Brenda)
   - Finalização da página produtos (Vinícius)
 
+  ## semana 4
+  -criação da página contatos (Brenda)
+  
+
 
 
