@@ -104,7 +104,10 @@ top: 32%;
     cursor: pointer;
 }
 
-
+#bot button:hover{
+    background-color: red;
+    color: #f6f9ff;
+}
 
 #empresa{
     margin-top: 70px;

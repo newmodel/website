@@ -15,6 +15,6 @@ contato.addEventListener("submit", (event) => {
 
     recebidos.push(info);
     localStorage.setItem("website/mensagens", JSON.stringify(recebidos));
-    contato.reset();
     alert(" Mensagem Enviada com Sucesso!")
+    contato.reset();
 });
