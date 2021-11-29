@@ -24,10 +24,11 @@
   - Finalização da página quem somos (Brenda)
   - Finalização da página produtos (Vinícius)
 
-  ## semana 4 - 26 de novembro de 2021
+  ## semana 4 - 29 de novembro de 2021
   -criação da página contatos (Brenda);
   - atualização das páginas (Brenda e Vinícius);
-  - design dos botões (Brenda)
+  - design dos botões (Brenda);
+  - rodapé da página contatos (Brenda e Vinícius);
   
 
 
