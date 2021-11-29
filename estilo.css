@@ -68,11 +68,11 @@ body{
 }
 
 #divBusca{
-    background-color:#00ccff;
-    border:solid 1px;
+    background-color:#00ccff3f;
+    border:solid 0,5px;
     width:300px;
     border-radius: 25px;
-    
+    margin-bottom: 50px;
 }
 
 
@@ -85,7 +85,7 @@ body{
 #txtBusca{
     float: left;
     background-color:transparent;
-    padding-left: 5px;
+    padding-left: 7px;
     font-style:italic;
     font-size:18px;
     border:none;
@@ -97,7 +97,7 @@ body{
 
 
 #container {
-    max-width: 1024px;
+    
     margin: 0 auto;
 }
 
@@ -112,7 +112,10 @@ main {
     padding: 1rem;
 }
 
-
+.fly{
+    text-align: center;
+    color: black;
+}
 
 /* MAIN */
 main > header {
@@ -124,7 +127,12 @@ main > header {
 .produto { 
     margin-bottom: 20px; 
     cursor: pointer; 
-    margin-right: 3px;
+    box-shadow: 17px 17px 17px -27px #000000;
+}
+
+.produto img{
+    border-radius: 10px;
+    transition: 1s;
 }
 
 .produto img:hover{ 
@@ -132,10 +140,11 @@ main > header {
 }
 
 .produto p {
-    background-color: #d84c72;
-    color: whitesmoke;
+    background-color: #d84c7100;
+    color: rgb(0, 0, 0);
     padding: 5px 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
 }
 
 
