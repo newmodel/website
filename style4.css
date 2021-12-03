@@ -107,6 +107,7 @@ header{
     margin: 10px auto;
     max-width: 500px;
     border-radius: 25px;
+
   }
   
   .form-group{
@@ -128,8 +129,11 @@ header{
     background-color: crimson
   }
 
+  .footer{
+    margin-top: 60px;
+  }
+
   .footer.footer{
-    weight: 100%;
     background: rgb(243, 143, 143);
     position: relative;
    }
@@ -153,7 +157,7 @@ header{
      padding: 3rem 0.9rem;
    }
 
-   .fooer h2{
+   .footer h2{
      color: #fff;
    }
 
@@ -171,13 +175,20 @@ header{
      align-items: center;
    }
 
-   .redes-sociais .fa-facebook-f{
+   .redes-sociais a{
      height: 0px;
      width: 17px;
      font-size: 20px;
      line-height: 40px;
      margin: 0px 2px 0;
-     color: #87ceeb;
+     color: #000000;
      cursor: pointer;
      transition: 0.5s;
    }
+
+   .redes-sociais a:hover{
+     color: #fff;
+     transform: translateY(-9px);
+   }
+
+   

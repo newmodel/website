@@ -28,7 +28,9 @@
   -criação da página contatos (Brenda);
   - atualização das páginas (Brenda e Vinícius);
   - design dos botões (Brenda);
-  - rodapé da página contatos (Brenda e Vinícius);
+  
+  ## 03 de Dezembro
+  - finalização do rodapé (Brenda e Vinícius);
   
 
 
