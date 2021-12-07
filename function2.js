@@ -1,10 +1,6 @@
-$(document).ready(function(){
+<script type="text/javascript">
+        function imgSlider(anything) {
+            document.querySelector('.newmodel').src = anything
+        }
 
-    $("#imgBandeira").click(function(){
-      if($(this).attr("src") == "sources/cartão.png") 
-        $(this).attr("src","sources/canecas.png");
-      else
-        $(this).attr("src","sources/cartão.png");
-  
-    });
-  });
+    </script>

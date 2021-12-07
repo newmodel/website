@@ -24,24 +24,31 @@
     </header>
     <section class="sobre">
         <div class="extras">
-            <img src="sources/canecas.png" width="500px" class="newmodel" />
+            <img src="sources/canecas.png" width="500px" class="newmodel">
         </div>
         <div id="center">
             <div class="texto-sobre">
-                <h1><span style="color: rgb(4, 4, 148);">New Model</span> levando seus negócios<br>ao próximo <span style="color: crimson;"><span style="font-family: cursive;">quadrante</span>.</span></h1>
-                <p>Nossa empresa consegue transparecer a criatividade do nosso cliente. Idealize e produza com oque achar melhor para o seu negócio.</p>
-              <a href="produtos.html"><button>Personalize Aqui</button></a>
+                <h1><span style="color: rgb(4, 4, 148);">New Model</span> levando seus negócios<br>ao próximo <span
+                        style="color: crimson;"><span style="font-family: cursive;">quadrante</span>.</span></h1>
+                <p>Nossa empresa consegue transparecer a criatividade do nosso cliente. Idealize e produza com oque
+                    achar melhor para o seu negócio.</p>
+                <a href="produtos.html"><button>Personalize Aqui</button></a>
             </div>
         </div>
         <ul class="thumb">
-            <li> <img src="sources/canecas.png" width="140px" </li>
-            <li> <img src="sources/cartão.png" width="140px" </li>
-            <li> <img src="sources/camisa.png" width="140px" </li>
+            <li> <img src="sources/canecas.png" width="140px" onclick="imgSlider('sources/canecas.png')"></li>
+            <li> <img src="sources/cartão.png" width="140px" onclick="imgSlider('sources/cartão.png')"></li>
+            <li> <img src="sources/camisa.png" width="140px" onclick="imgSlider('sources/camisa.png')"></li>
         </ul>
     </section>
 
 
-    <script src="function2.js"></script>
+    <script type="text/javascript">
+        function imgSlider(anything) {
+            document.querySelector('.newmodel').src = anything
+        }
+
+    </script>
 </body>
 
 
